@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="Jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ラウト スマン(ポートフォリオ)</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+        <div class="logo">ラウト スマン</div>
+        <div>
+            <ul class="nav-links">
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#skills">スキル</a></li>
+          <li><a href="#projects">プロジェクト</a></li>
+          <li><a href="#hobbies">趣味</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">ラウト スマン</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">自己紹介</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">スキル</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">プロジェクト</a></li>
+          <li><a href="#hobbies" onclick="toggleMenu()">趣味</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">お問い合わせ</a></li>
+            </div>
+        </div>
+    </nav>
+        <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="プロフィール写真" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">はじめまして！</p>
+        <h1 class="title">ラウト スマン</h1>
+        <p class="section__text__p2">フルスタックエンジニア志望</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='./#about'"
+          >
+            詳しく見る
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/suman-raut-4a81b3192/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/SUMANRAUT-20'"
+          />
+        </div>
+      </div>
+    </section>
+        <section id="about">
+      <p class="section__text__p1">プロフィール</p>
+    <h1 class="title">私について</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="./assets/profile1.jpg"
+          alt="プロフィール写真"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>資格</h3>
+            <p>TOEIC L&R:750点 <br />Oracle Java Bronze SE<br />CompTIA Tech+</p>
+         </div>
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>学歴</h3>
+            <p>専門学校 沖縄ビジネス外語学院</p>
+            <p>WEBプログラミングコース</p>
+            <p>在学中</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            沖縄でWebプログラミングを学んでいます。使いやすく実用的なサービスを開発できるフルスタックエンジニアを目指しています。技術の仕組みを大切にし、公式ドキュメントや実際のコードを活用しながら学習しています。現在はJava、Next.js、HTML、CSS、MySQL、PHP、API・CMS連携のスキルを磨いています。
+          </p>
+        </div>
+      </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+      </section>
+      <section id="skills">
+      <p class="section__text__p1">技術について</p>
+      <h1 class="title">スキル</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">言語・フレームワーク</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML&CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVA</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Next.Js</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C/C++</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">データベース・連携</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>API連携</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CMS連携</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP・SQL連携</h3>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">開発ツール</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git・GitHub</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Visual Studio Code</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Vercel</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CMS</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">最近の制作実績</p>
+      <h1 class="title">プロジェクト</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SUMANRAUT-20/codenest-academy-website'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://codenest-academy-website.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SUMANRAUT-20/online-quiz'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://online-quiz-alpha-olive.vercel.app/login'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SUMANRAUT-20/nextproject'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://nextproject-steel-chi.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#hobbies'"
+      />
+    </section>
+    <section id="hobbies">
+  <p class="section__text__p1">好きなこと</p>
+  <h1 class="title">趣味</h1>
+
+  <div class="hobbies-container">
+    <!-- Photography -->
+    <div class="hobby-card">
+      <div class="hobby-slider">
+        <img
+          src="./assets/p1.jpg"
+          alt="写真撮影"
+          class="hobby-slide photography-slide active"
+        />
+        <img
+          src="./assets/p2.jpg"
+          alt="写真撮影"
+          class="hobby-slide photography-slide"
+        />
+        <img
+          src="./assets/p3.jpg"
+          alt="写真撮影"
+          class="hobby-slide photography-slide"
+        />
+        <img
+          src="./assets/p4.jpg"
+          alt="写真撮影"
+          class="hobby-slide photography-slide"
+        />
+        <img
+          src="./assets/p5.jpg"
+          alt="写真撮影"
+          class="hobby-slide photography-slide"
+        />
+        <img
+          src="./assets/p6.jpg"
+          alt="写真撮影"
+          class="hobby-slide photography-slide"
+        />
+        <img
+          src="./assets/p7.jpg"
+          alt="写真撮影"
+          class="hobby-slide photography-slide"
+        />
+        <img
+          src="./assets/p8.jpg"
+          alt="写真撮影"
+          class="hobby-slide photography-slide"
+        />
+      </div>
+
+      <div class="hobby-description">
+        <p class="hobby-number">01</p>
+        <h2>写真撮影</h2>
+        <p>
+          美しい景色や日常の特別な瞬間を写真に残すことが好きです。
+          光や構図を考えながら、その場所の雰囲気が伝わる写真を撮っています。
+        </p>
+      </div>
+    </div>
+
+    <!-- Cooking -->
+    <div class="hobby-card hobby-card-reverse">
+      <div class="hobby-slider">
+        <img
+          src="./assets/c1.jpg"
+          alt="料理"
+          class="hobby-slide cooking-slide active"
+        />
+        <img
+          src="./assets/c2.jpg"
+          alt="料理"
+          class="hobby-slide cooking-slide"
+        />
+        <img
+          src="./assets/c3.jpg"
+          alt="料理"
+          class="hobby-slide cooking-slide"
+        />
+        <img
+          src="./assets/c4.jpg"
+          alt="料理"
+          class="hobby-slide cooking-slide"
+        />
+        <img
+          src="./assets/c5.jpg"
+          alt="料理"
+          class="hobby-slide cooking-slide"
+        />
+        <img
+          src="./assets/c6.jpg"
+          alt="料理"
+          class="hobby-slide cooking-slide"
+        />
+        <img
+          src="./assets/c7.jpeg"
+          alt="料理"
+          class="hobby-slide cooking-slide"
+        />
+      </div>
+
+      <div class="hobby-description">
+        <p class="hobby-number">02</p>
+        <h2>料理</h2>
+        <p>
+          いろいろな料理を作り、新しい味に挑戦することが好きです。
+          家族や友達に喜んでもらえる料理を作る時間を大切にしています。
+        </p>
+      </div>
+    </div>
+  </div>
+  <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Sumanofficial.sr@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/suman-raut-4a81b3192/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">自己紹介</a></li>
+          <li><a href="#skills">スキル</a></li>
+          <li><a href="#projects">プロジェクト</a></li>
+          <li><a href="#hobbies">趣味</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2026 RAUT SUMAN. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
