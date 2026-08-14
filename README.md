@@ -45,7 +45,7 @@ VS Codeを使用する場合は、Live Serverでも実行できます。
 
 ## 公開サイト
 
-<a href="">こちらからサイトを見る</a>
+<a href="">[こちらからサイトを見る](https://portfolio1-tau-steel.vercel.app/)</a>
 
 ## 制作者
 
